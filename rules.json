@@ -36,6 +36,17 @@
     "id": 4,
     "priority": 2,
     "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "regexFilter": "^https://\\w*\\.?reddit\\.com/answers(/|$).*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 2,
+    "action": {
       "type": "modifyHeaders",
       "requestHeaders": [{ "header": "Accept", "operation": "remove" }]
     },
@@ -45,7 +56,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "priority": 2,
     "action": {
       "type": "redirect",
@@ -59,7 +70,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 7,
     "priority": 1,
     "condition": {
       "urlFilter": "||reddit.com/*",
@@ -75,7 +86,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 8,
     "priority": 1,
     "condition": {
       "urlFilter": "||www.reddit.com/*",
@@ -91,7 +102,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "priority": 1,
     "condition": {
       "urlFilter": "||np.reddit.com/*",
@@ -107,7 +118,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 10,
     "priority": 1,
     "condition": {
       "urlFilter": "||amp.reddit.com/*",
@@ -123,7 +134,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 11,
     "priority": 1,
     "condition": {
       "urlFilter": "||i.reddit.com/*",
