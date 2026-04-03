@@ -1,7 +1,7 @@
 {
-  "name": "Old Reddit Redirect",
-  "description": "Ensure Reddit always loads the old design",
-  "version": "2.1.0",
+  "name": "Legacy Modrinth Redirect",
+  "description": "Ensure Modrinth always loads the April Fools 2026 (\"Legacy\") design",
+  "version": "1.0.0",
   "manifest_version": 3,
   "browser_specific_settings": {
     "gecko_android": {},
@@ -20,19 +20,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://old.reddit.com/*"],
+      "matches": ["https://april-fools-2026.modrinth.com/*"],
       "css": ["styles.css"]
     }
   ],
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "host_permissions": [
-    "*://reddit.com/*",
-    "*://www.reddit.com/*",
-    "*://np.reddit.com/*",
-    "*://amp.reddit.com/*",
-    "*://i.reddit.com/*",
-    "*://i.redd.it/*",
-    "*://preview.redd.it/*"
+    "*://modrinth.com/*",
   ],
   "declarative_net_request": {
     "rule_resources": [
