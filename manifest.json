@@ -1,12 +1,12 @@
 {
   "name": "Legacy Modrinth Redirect",
-  "description": "Ensure Modrinth always loads the April Fools 2026 (\"Legacy\") design",
+  "description": "Ensure Reddit always loads the old design",
   "version": "1.0.0",
   "manifest_version": 3,
   "browser_specific_settings": {
     "gecko_android": {},
     "gecko": {
-      "id": "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}",
+      "id": "{9a6b2f40-f320-4c5b-8dd8-c4c8d809470b}",
       "strict_min_version": "130.0"
     }
   },
@@ -25,7 +25,7 @@
   ],
   "permissions": ["declarativeNetRequestWithHostAccess"],
   "host_permissions": [
-    "*://modrinth.com/*",
+    "*://modrinth.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
