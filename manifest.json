@@ -20,8 +20,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://april-fools-2026.modrinth.com/*"],
-      "css": ["styles.css"]
+      "matches": ["https://april-fools-2026.modrinth.com/*"]
     }
   ],
   "permissions": ["declarativeNetRequestWithHostAccess"],
