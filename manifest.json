@@ -1,6 +1,6 @@
 {
   "name": "Legacy Modrinth Redirect",
-  "description": "Ensure Reddit always loads the old design",
+  "description": "Ensure Modrinth always loads the April Fools 2026 (\"Legacy\") design",
   "version": "1.0.0",
   "manifest_version": 3,
   "browser_specific_settings": {
